@@ -6,6 +6,7 @@
 [ext_resource type="Texture2D" uid="uid://c23flfaie3uxb" path="res://Misc/TestAssets/32x32grid.png" id="2_sw3on"]
 [ext_resource type="Script" uid="uid://qgnk6t8mi76s" path="res://Scripts/UI/WindowHandler/window_handler.gd" id="2_y56ai"]
 [ext_resource type="Shader" uid="uid://brpv37x267rmr" path="res://Scripts/Shaders/ColorBlindness.gdshader" id="3_me1oy"]
+[ext_resource type="Script" uid="uid://btm00073hy4q7" path="res://Scripts/Global/SpoutCam.gd" id="5_d7c5n"]
 [ext_resource type="PackedScene" uid="uid://cnq8tddqwvy07" path="res://UI/StreamUI/stream_ui.tscn" id="5_h43to"]
 [ext_resource type="Script" uid="uid://by4pbr6yeut1c" path="res://Main/Scripts/monitor_tracking.gd" id="5_me1oy"]
 [ext_resource type="Shader" uid="uid://bc5tbhguskdv2" path="res://Scripts/Shaders/ModelEffects.gdshader" id="6_y56ai"]
@@ -137,6 +138,7 @@ unique_name_in_owner = true
 unique_name_in_owner = true
 position_smoothing_enabled = true
 position_smoothing_speed = 8.0
+script = ExtResource("5_d7c5n")
 
 [node name="Origin" type="Node2D" parent="SubViewportContainer/SubViewport/Node2D" unique_id=1902816179]
 z_index = 4
@@ -191,7 +193,7 @@ unique_name_in_owner = true
 [node name="FileDialog" type="FileDialog" parent="." unique_id=1976525289]
 unique_name_in_owner = true
 auto_translate_mode = 1
-title = "TR_FILE_DIALOG_TITLE"
+title = "Open File(s)"
 initial_position = 2
 size = Vector2i(800, 500)
 force_native = true

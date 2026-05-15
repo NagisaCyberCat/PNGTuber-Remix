@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://dw4brgrpdpurf" path="res://Misc/LightSource/light_source.tscn" id="3_eo07p"]
 [ext_resource type="Shader" uid="uid://brpv37x267rmr" path="res://Scripts/Shaders/ColorBlindness.gdshader" id="3_o60nc"]
 [ext_resource type="Shader" uid="uid://bc5tbhguskdv2" path="res://Scripts/Shaders/ModelEffects.gdshader" id="3_rj11h"]
+[ext_resource type="Script" uid="uid://btm00073hy4q7" path="res://Scripts/Global/SpoutCam.gd" id="5_rix8b"]
 [ext_resource type="Script" uid="uid://by4pbr6yeut1c" path="res://Main/Scripts/monitor_tracking.gd" id="5_rj11h"]
 [ext_resource type="PackedScene" uid="uid://bpmlfhv30o08l" path="res://UI/EditorUI/TopUI/top_ui.tscn" id="7_qwnpc"]
 [ext_resource type="Script" uid="uid://cl5ylmnvn6ncm" path="res://Scripts/Objects/mesh_poiner.gd" id="8_rix8b"]
@@ -169,6 +170,7 @@ unique_name_in_owner = true
 unique_name_in_owner = true
 position_smoothing_enabled = true
 position_smoothing_speed = 8.0
+script = ExtResource("5_rix8b")
 
 [node name="Origin" type="Node2D" parent="SubViewportContainer/SubViewport/Node2D" unique_id=1268053977]
 z_index = 4

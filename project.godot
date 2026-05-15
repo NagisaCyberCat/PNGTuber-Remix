@@ -67,9 +67,13 @@ window/vsync/vsync_mode=2
 window/enable_file_logging.pc=true
 window/enable_file_logging=false
 
+[dotnet]
+
+project/assembly_name="PNGTube-Remix"
+
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/aimg_io/plugin.cfg", "res://addons/wiggly_appendage_2d/plugin.cfg")
+enabled=PackedStringArray("res://addons/aimg_io/plugin.cfg", "res://addons/nagis-spoutcam/plugin.cfg", "res://addons/wiggly_appendage_2d/plugin.cfg")
 
 [global_group]
 
